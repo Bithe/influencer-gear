@@ -14,7 +14,6 @@ body {
 /* Navbar Starts */
 
 header {
-    height: 100vh;
     background-color: #AAAAAA;
 }
 
@@ -49,3 +48,48 @@ nav {
 
 
 /* Navbar Ends */
+
+
+/* Left Sidebar and Right Sidebar Picture Starts  */
+
+.banner-area {
+    /* display: flex; */
+    height: calc(100vh - 36px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.banner-area-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-area-left h1 {
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.banner-area-left p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.8;
+    margin: 10px 0;
+}
+
+.header-btn {
+    border: none;
+    background: #E02C6D;
+    border-radius: 41px;
+    padding: 10px 24px;
+    color: #FFFFFF;
+}
+
+
+/* .banner-area-right img {
+    width: 100%;
+} */
+
+
+/* Left Sidebar and Right Sidebar Picture Ends */
