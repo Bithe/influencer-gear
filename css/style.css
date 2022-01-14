@@ -66,10 +66,37 @@ nav {
     align-items: flex-start;
 }
 
-.banner-area-left h1 {
+
+/* title typing animation */
+
+.banner-area-left .title {
     font-weight: 700;
     font-size: 52px;
+    position: relative;
+    overflow: hidden;
 }
+
+.title-typing {
+    content: 'Influencer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #e06d97;
+    animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+    /* from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    } */
+    0% {}
+}
+
+
+/* title typing animation ends */
 
 .banner-area-left p {
     font-weight: 600;
@@ -81,9 +108,18 @@ nav {
 .header-btn {
     border: none;
     background: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
     border-radius: 41px;
     padding: 10px 24px;
     color: #FFFFFF;
+    box-shadow: 3px 3px 5px #e06d97;
+    position: relative;
+}
+
+.header-btn:active {
+    top: 3px;
+    box-shadow: 2px 1px 1px #e06d97;
 }
 
 
@@ -93,3 +129,38 @@ nav {
 
 
 /* Left Sidebar and Right Sidebar Picture Ends */
+
+
+/* Popular Collections Starts */
+
+.collections {
+    border: 2px solid;
+}
+
+.collections-image img {
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+
+
+/* START */
+
+.star-rating {
+    display: flex;
+}
+
+.rating {
+    margin-left: 10px;
+}
+
+.fa-star.filled {
+    color: #FB8200;
+}
+
+.fa-star-half-alt.filled {
+    color: #FB8200;
+}
+
+
+/* Popular collections End */
