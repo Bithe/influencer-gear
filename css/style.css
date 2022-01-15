@@ -14,7 +14,7 @@ body {
 /* Navbar Starts */
 
 header {
-    background-color: #AAAAAA;
+    /* background-color: #AAAAAA; */
 }
 
 nav {
@@ -26,7 +26,7 @@ nav {
 
 .container {
     max-width: 1200px;
-    margin: 95px auto 50px auto;
+    margin: 50px auto 50px auto;
     padding: 0 20px;
 }
 
@@ -244,10 +244,12 @@ nav {
 
 footer {
     background-color: #0a0826;
-    color: #dddee2;
+    color: #D9DBE1;
     text-align: center;
     padding: 30px 0;
     font-size: 24px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
 }
 
 .footer-products {
@@ -258,6 +260,19 @@ footer {
 .footer-copyright {
     font-size: 14px;
     line-height: 24px;
+}
+
+.social-media {
+    margin: 17px 16px;
+}
+
+.social-media a {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: #13243d;
+    color: #FFFFFF;
 }
 
 
