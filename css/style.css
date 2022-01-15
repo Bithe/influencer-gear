@@ -13,9 +13,11 @@ body {
 
 /* Navbar Starts */
 
+
+/* 
 header {
-    /* background-color: #AAAAAA; */
-}
+    background-color: #AAAAAA;
+} */
 
 nav {
     display: flex;
