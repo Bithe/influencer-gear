@@ -88,6 +88,19 @@ nav {
     font-size: 16px;
     line-height: 1.8;
     margin: 10px 0;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
 }
 
 .header-btn {
@@ -111,10 +124,17 @@ nav {
     /* border: 5px solid yellow; */
     width: 440px;
     height: 414px;
+    overflow: hidden;
 }
 
 .banner-area-right img {
     width: 100%;
+}
+
+.banner-area-right:hover {
+    display: block;
+    transform: scale(1.1) rotate(40deg);
+    transition: transform 2s ease-out;
 }
 
 
