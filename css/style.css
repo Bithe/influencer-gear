@@ -199,5 +199,66 @@ nav {
     color: #FB8200;
 }
 
+.see-more {
+    color: #E02C6D;
+    text-align: end;
+}
+
 
 /* Popular collections End */
+
+
+/* Contact Starts */
+
+.message-me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.message-me img {
+    width: 100%;
+}
+
+.message-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.message-input {
+    width: 100%;
+    margin: 10px;
+    padding: 20px;
+    outline: 0;
+    border: 2px solid #dfb4c4;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px #eca2bd;
+}
+
+
+/*  Contact Ends */
+
+
+/* Footer Starts */
+
+footer {
+    background-color: #0a0826;
+    color: #dddee2;
+    text-align: center;
+    padding: 30px 0;
+    font-size: 24px;
+}
+
+.footer-products {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/* Footer Ends */
