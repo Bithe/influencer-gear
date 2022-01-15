@@ -301,7 +301,6 @@ footer {
 
 .nav-toggle-icon {
     display: none;
-    color: blue;
 }
 
 
@@ -417,21 +416,22 @@ footer {
     }
     .nav-toggle-icon {
         display: block;
-        color: blue;
     }
     .nav-navigaton {
         position: absolute;
-        top: 80%;
+        top: 20%;
         left: 0;
         width: 100%;
         flex-direction: column;
         padding: 20px 0;
         transform: translateY(-620px);
         align-items: center;
-        background-color: rgb(95, 16, 16);
+        background-color: #bb6384;
+        z-index: 2;
     }
     .nav-navigaton li a {
         color: black;
+        width: 100%;
     }
     #nav-toggle:checked~.nav-navigaton {
         transform: translateY(0px);
