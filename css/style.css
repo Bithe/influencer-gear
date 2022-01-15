@@ -28,7 +28,7 @@ nav {
 
 .container {
     max-width: 1200px;
-    margin: 50px auto 50px auto;
+    margin: 30px auto 50px auto;
     padding: 0 20px;
 }
 
@@ -293,6 +293,18 @@ footer {
 /* Footer Ends */
 
 
+/* Navbar Toggle  */
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-icon {
+    display: none;
+    color: blue;
+}
+
+
 /* Media Query */
 
 
@@ -398,6 +410,31 @@ footer {
     .message-me {
         grid-template-columns: repeat(1, 1fr);
         height: fit-content;
+        margin: 0 auto;
+    }
+    .message-form {
+        margin: 0 auto;
+    }
+    .nav-toggle-icon {
+        display: block;
+        color: blue;
+    }
+    .nav-navigaton {
+        position: absolute;
+        top: 80%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        padding: 20px 0;
+        transform: translateY(-620px);
+        align-items: center;
+        background-color: rgb(95, 16, 16);
+    }
+    .nav-navigaton li a {
+        color: black;
+    }
+    #nav-toggle:checked~.nav-navigaton {
+        transform: translateY(0px);
     }
 }
 
